@@ -29,10 +29,25 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Description": {
-      "type": "richtext"
-    },
     "Name": {
+      "type": "string"
+    },
+    "Engine": {
+      "type": "decimal"
+    },
+    "Chairs": {
+      "type": "integer"
+    },
+    "MaxSpeed": {
+      "type": "integer"
+    },
+    "TimeTo100": {
+      "type": "decimal"
+    },
+    "FuelPer100": {
+      "type": "decimal"
+    },
+    "Gear": {
       "type": "string"
     }
   }
